@@ -1,0 +1,85 @@
+
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #232F34, #232F34);
+  color: #232F34;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+header {
+   background: #F9AA33;
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-wrapper {
+  position: relative;
+  flex: 1 1 60%;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+#video, #c1 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#c1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.control-panel {
+  flex: 1 1 30%;
+   background: #F9AA33;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.control-panel h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #232F34;
+}
+
+.control-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.range-field input[type="range"]::-webkit-slider-thumb {
+  background: #232F34;
+}
+
+.switch label{
+    color: #232F34;
+    
+}
